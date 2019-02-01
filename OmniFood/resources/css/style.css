@@ -8,14 +8,15 @@
     box-sizing: border-box;
 }
 
-html {
+html, 
+body {
     background-color: #ffffff;
     color: #555555;
     font-family: 'Lato','Arial','sanseriff';
     font-weight: 300;
     font-size: 20px;
     text-rendering: optimizeLegibility;
-    max-width: 100%;
+    /* max-width: 100%; */
     overflow-x: hidden;
 }
 
@@ -170,9 +171,7 @@ input[type=submit]:active {
 }
 
 /*--------LINKS-----*/
-a{
-    background-color: transparent;
-}
+a {background-color: transparent;}
 
 a:link,
 a:visited {
@@ -248,16 +247,12 @@ header {
 /* FEATURES*/
 /*------------------------------------------------------------------------------*/
 
-.section-features .long-copy{
-    margin-bottom: 35px;
-}
+.section-features .long-copy{ margin-bottom: 35px; }
 
 /*------------------------------------------------------------------------------*/
 /* MEALS */
 /*------------------------------------------------------------------------------*/
-.section-meals{
-    padding: 0;
-}
+.section-meals {padding: 0;}
 
 .meals-showcase{
     list-style: none;
@@ -295,9 +290,7 @@ header {
 /* HOW IT WORKS */
 /*------------------------------------------------------------------------------*/
 
-.section-steps {
-    background-color: #f4f4f4;
-}
+.section-steps {background-color: #f4f4f4;}
 
 .steps-box:first-child{
     text-align: right;
@@ -310,17 +303,11 @@ header {
     margin-top: 70px;
 }
 
-.app-screen {
-    width: 40%;
-}
+.app-screen {width: 40%;}
 
-.works-step {
-    margin-bottom: 50px;
-}
+.works-step {margin-bottom: 50px;}
 
-.works-step:last-of-type {
-    margin-bottom: 80px;
-}
+.works-step:last-of-type {margin-bottom: 80px;}
 
 .works-step div {
     color: #e67e22;
@@ -337,9 +324,7 @@ header {
 }
 
 .btn-app:link,
-.btn-app:visited{
-    border-bottom: 0;
-}
+.btn-app:visited {border-bottom: 0;}
 
 .btn-app img{
     height: 50px;
@@ -351,9 +336,8 @@ header {
 /* CITIES */
 /*------------------------------------------------------------------------------*/
 
-.city-feature {
-    margin-bottom: 5px;
-}
+.city-feature {margin-bottom: 5px;}
+
 .box img {
     width: 100%;
     height: auto;
@@ -445,17 +429,11 @@ cite img {
     font-weight: 300;
 }
 
-.plan-price-meal {
-    font-size: 80%;
-}
+.plan-price-meal {font-size: 80%;}
 
-.plan-box ul {
-    list-style: none;
-}
+.plan-box ul {list-style: none;}
 
-.plan-box ul li {
-    padding: 5px 0;
-}
+.plan-box ul li {padding: 5px 0;}
 
 /*------------------------------------------------------------------------------*/
 /* FORM*/
@@ -476,17 +454,9 @@ textarea {
     border: 1px solid #cccccc;
 }
 
-textarea {
-    height: 100px;
-}
-
-input[type=checkbox] {
-    margin: 10px 5px 10px 0;
-}
-
-*:focus{
-    outline: none;
-}
+textarea { height: 100px; }
+input[type=checkbox] { margin: 10px 5px 10px 0; }
+*:focus { outline: none; }
 
 /*------------------------------------------------------------------------------*/
 /* FOOTER*/
@@ -530,37 +500,20 @@ footer {
 }
 
 .footer-nav li a:hover,
-.footer-nav li a:active{
-    color: #dddddd;
-}
+.footer-nav li a:active {color: #dddddd;}
 
 .social-links li a:link,
-.social-links li a:visited{
-    font-size: 160%;
-}
+.social-links li a:visited {font-size: 160%;}
 
 .ion-social-facebook,
 .ion-social-twitter,
 .ion-social-googleplus,
-.ion-social-instagram {
-    transition: color 0.2s;
-}
+.ion-social-instagram {transition: color 0.2s;}
 
-.ion-social-facebook:hover {
-    color: #3b5998;
-}
-
-.ion-social-twitter:hover {
-    color: #55acee;
-}
-
-.ion-social-googleplus:hover {
-    color: #dd4b39;
-}
-
-.ion-social-instagram:hover {
-    color: #e95950;
-}
+.ion-social-facebook:hover {color: #3b5998;}
+.ion-social-twitter:hover {color: #55acee;}
+.ion-social-googleplus:hover {color: #dd4b39;}
+.ion-social-instagram:hover {color: #e95950;}
 
 footer p {
     color: #dddddd;
